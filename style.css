@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.formm {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: grid;
+}
+
+label {
+    display: flex;
+    font-size: large;
+}
+
+
+.check {
+    
+    align-items: center;
+    
+    margin-bottom: 5px;
+}
+
+select,
+input,
+button {
+    padding: 10px;
+   
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #c0b44d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b1e84c;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.insurance, .accessor{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#insurance, #accessor{
+    margin: 0 0 0 5px;
+}
+ .totalcost{
+    margin-top: 15px;
+ }
+.total {
+    color: #4caf50;
+}
+.error{
+    font-size: large;
+    color: red;
+}
