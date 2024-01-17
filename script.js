@@ -20,7 +20,8 @@ function calculateTotalCost() {
     var carcost = cars[carmodel];
     var insurance = document.getElementById("insurance").checked;
     var accessor = document.getElementById("accessor").checked;
-    var discount = parseFloat(document.getElementById("discount").value) || 0;
+    var discount = document.getElementById("discount").value || 0;
+    console.log(document.getElementById("discount").value)
 
     var errorMessages = document.getElementById("errorMessages");
     errorMessages.innerHTML = "";
